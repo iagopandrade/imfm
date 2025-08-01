@@ -9,11 +9,16 @@
 
 ## Sobre
 
-Este programa foi desenvolvido pelos alunos Iago Pinheiro e Milton Gabriel, do primeiro semestre de Engenharia de Computação da Universidade Federal do Ceará, Campus Sobral, como trabalho final da disciplina de Programação Computacional - 2025.1.
+Mini-gerenciador de arquivos em linguagem C, desenvolvido como trabalho final da disciplina de Programação Computacional do curso de Engenharia de Computação da Universidade Federal do Ceará, Campus Sobral, - 2025.1.
+
+## Equipe
+
+- Iago Pinheiro
+- Milton Gabriel
 
 ## Funcionalidades
 
-O mini-gerenciador IMFM funciona por meio de comandos enviados pelo usuário, que são interpretados por um algoritmo interno de comparação. A tabela a seguir apresenta os comandos disponíveis, seus atalhos, argumentos esperados, tipos e respectivas funcionalidades:
+O mini-gerenciador IMFM funciona por meio de comandos enviados via terminalg. A tabela a seguir apresenta os comandos disponíveis, seus atalhos, argumentos esperados, tipos e descrição:
 
 | COMANDO          | ATALHO | ARGUMENTO                  | TIPO              | FUNÇÃO                                           |
 |------------------|--------|----------------------------|-------------------|--------------------------------------------------|
@@ -31,6 +36,8 @@ O mini-gerenciador IMFM funciona por meio de comandos enviados pelo usuário, qu
 ## Relacionado
 
 - [unit-converter-pvx](https://github.com/vander-furtuna/unit-converter-pvx) – conversor de unidades
+- [Calculadora-de-Matrizes.C](https://github.com/Pablobrek-bit/Calculadora-de-Matrizes.C) - calculadora de matrizes
+- [ProjectImitationGame](https://github.com/VictorEdu-Dev/ProjectImitationGame) - encriptador de mensagens
 
 ## Licença
 
