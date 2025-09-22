@@ -305,7 +305,7 @@ void add_file (char *file_name)
     fgets(file_content, sizeof(file_content), stdin);
 
 //  Variável para armazenar a opção escolhida
- 	char option[50];
+ 	char option;
 //	Laço para confirmação de salvamento
     do
     {
@@ -315,11 +315,13 @@ void add_file (char *file_name)
         printf("Você deseja salvar as alterações? (s/N) ");
         
 //      Lê a opção escolhida
-    	fgets(option, sizeof(option), stdin);
+		option = getchar();
+//		Limpa o buffer de entrada (Teclado)
+		fflush(stdin);
 
-    } while (option[0] != 's' && option[0] != 'N'); // Enquanto o primeiro caractere informado for diferente de 's' ou 'N', o laço continua
+    } while (option != 's' && option != 'N'); // Enquanto o primeiro caractere informado for diferente de 's' ou 'N', o laço continua
 
-    if (option[0] == 's')
+    if (option == 's')
     {
 //    	Imprime o novo contéudo ao arquivo
     	fprintf(file, "%s", file_content);   
